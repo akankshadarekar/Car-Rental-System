@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 10px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #9cd1ec;
+    border-style: double;
+    
+  }
+  
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="location"],
+  select,
+  textarea {
+    width: 250px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  #online-payment {
+    display: none;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
